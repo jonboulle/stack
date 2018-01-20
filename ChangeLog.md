@@ -86,6 +86,8 @@ Bug fixes:
   we were forgetting to record the result, which meant that all tests
   always ran even if they had already passed before. See
   [#3770](https://github.com/commercialhaskell/stack/pull/3770).
+* `stack ghci` now uses correct paths for autogen files with
+  [#3791](https://github.com/commercialhaskell/stack/issues/3791)
 
 ## v1.6.3
 
